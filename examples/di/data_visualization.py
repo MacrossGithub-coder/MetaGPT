@@ -13,5 +13,6 @@ async def main(requirement: str = ""):
 
 
 if __name__ == "__main__":
-    requirement = "Run data analysis on sklearn Iris dataset, include a plot"
+    # requirement = "Run data analysis on sklearn Iris dataset, include a plot"
+    requirement = "读取当前工作目录d:/Users/Public/macross/MetaGPT/examples/di/nbim-1742264244206.csv文件,并绘制柱状图"
     asyncio.run(main(requirement))
